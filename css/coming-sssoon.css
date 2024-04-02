@@ -938,7 +938,7 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .logo-container {
-  left: 50px;
+  left: 30px;
   position: absolute;
   top: 20px;
   z-index: 3;
@@ -964,12 +964,13 @@ fieldset[disabled] .btn-warning.active {
   font-size: 56px;
   font-weight: 300;
   position: relative;
-  text-align: center;
+  text-align: left;
+  margin-left: 0px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-  margin-top: 150px;
+  margin-top: 50px;
   z-index: 3;
   font-family: "Rubik";
-  font-size: 82px;
+  font-size: 4em;
 }
 .main .logo .cursive {
   /* font-family: 'Grand Hotel',cursive; */
@@ -1021,14 +1022,16 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .footer {
-  position: relative;
+  position: fixed;
   bottom: 20px;
-  right: 0px;
+
   width: 100%;
   color: #aaaaaa;
   z-index: 4;
-  text-align: right;
-  margin-top: 50px;
+  text-align: left;
+  margin-bottom: 10px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 .footer a {
   color: #ffffff;
